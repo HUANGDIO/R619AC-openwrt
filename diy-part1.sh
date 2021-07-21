@@ -24,3 +24,5 @@ sed -i 's/OpenWrt/PandoraBox/g' package/kernel/mac80211/files/lib/wifi/mac80211.
 sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean/luci-app-adblock-plus
+
+sed -i 's/$1$WplwC1t5$HBAtVXABp7XbvVjG4193B.:18753:0:99999:7:::/$1$8FXWjoqn$vG2VSBEkabshtxxc6H/Yc0:18828:0:99999:7:::/g' package/base-files/files/etc/shadow
